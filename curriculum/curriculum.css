@@ -1,0 +1,108 @@
+.foto{
+    height: 100px;
+    width: 75px;
+    background-image: url(face.png);
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    margin-right: 25px;
+}
+.titolo{
+    font-size: 30px;
+    display: inline-block;
+}
+
+nav{
+    margin-left: 37%;
+    margin-bottom: 25px;
+}
+
+.tit{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    font-size: 30px;
+}
+
+.bottone{
+    background-color: #4CAF50; /* Green */
+ border: none;
+ color: white;
+ padding: 15px 32px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 16px;
+ cursor: pointer;
+ float: left;
+}
+.bottone:hover{
+    background-color: #3e8e41
+}
+
+.ita{
+    width: 100px;
+    height: 100px;
+    background-image: url(italia.jpeg);
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+    right:0;
+}
+header{
+    position: relative;
+}
+
+
+main{
+    width: 100%;
+    height: 65%;
+    position: relative;
+}
+.info{
+    display: none;
+    padding: 10px;
+    position: relative;
+}
+.tasto1{
+    width: 100%;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid black;
+}
+#primo:hover .info{
+    background-color: rgba(0,0,0,0.2);
+    display: block;
+}
+.personal{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 150px;
+}
+
+.corsi{
+    display: none;
+    padding: 10px;
+
+}
+#secondo:hover .corsi{
+    background-color: rgba(0,0,0,0.2);
+    display: block;
+
+}
+.esp{
+    display: none;
+    padding: 10px;
+}
+#terzo:hover .esp{
+    background-color: rgba(0,0,0,0.2);
+    display: block;
+}
+body{
+    background-image: url(https://img.freepik.com/free-vector/stylish-elegant-colorful-wave-background-vector_1055-8841.jpg?size=626&ext=jpg);
+    background-size: cover;
+
+
+}
